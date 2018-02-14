@@ -21,8 +21,14 @@
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
+  },
+  "renovate": {
+    "extends": ["config:base"],
+    "automerge": true,
+    "automergeType": "branch-push",
+    "major": {
+      "automerge": false
+    }
   }
 }
