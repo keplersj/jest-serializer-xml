@@ -1,0 +1,14 @@
+{
+  "name": "jest-serializer-xml",
+  "version": "1.0.0",
+  "description": "A snapshot serializer for XML strings.",
+  "main": "index.js",
+  "repository": "https://github.com/keplersj/jest-serializer-xml",
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "is-xml": "^0.1.0",
+    "xml-formatter": "^1.0.1"
+  }
+}
