@@ -15,11 +15,11 @@
     "@commitlint/cli": "6.1.0",
     "@commitlint/config-conventional": "6.1.0",
     "@commitlint/travis-cli": "6.1.0",
-    "eslint": "^4.17.0",
-    "eslint-config-kitchensink": "^1.0.0",
+    "eslint": "4.18.1",
+    "eslint-config-kitchensink": "1.0.0",
     "husky": "0.14.3",
-    "lint-staged": "^6.1.0",
-    "prettier": "^1.10.2"
+    "lint-staged": "6.1.1",
+    "prettier": "1.10.2"
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
