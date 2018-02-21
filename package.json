@@ -15,16 +15,36 @@
     "@commitlint/cli": "6.1.0",
     "@commitlint/config-conventional": "6.1.0",
     "@commitlint/travis-cli": "6.1.0",
-    "husky": "0.14.3"
+    "eslint": "^4.17.0",
+    "eslint-config-kitchensink": "^1.0.0",
+    "husky": "0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2"
   },
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "lint": "eslint *.js",
+    "precommit": "lint-staged"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "kitchensink"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint"
+    ]
   },
   "renovate": {
-    "extends": ["config:base"],
+    "extends": [
+      "config:base"
+    ],
     "automerge": true,
     "automergeType": "branch-push",
     "major": {
