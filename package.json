@@ -12,7 +12,7 @@
     "xml-formatter": "^1.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "6.1.0",
+    "@commitlint/cli": "6.1.2",
     "@commitlint/config-conventional": "6.1.0",
     "@commitlint/travis-cli": "6.1.0",
     "eslint": "4.18.1",
