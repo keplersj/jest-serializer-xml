@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-xml",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A snapshot serializer for XML strings.",
   "main": "index.js",
   "repository": "https://github.com/keplersj/jest-serializer-xml",
