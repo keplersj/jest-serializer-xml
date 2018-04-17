@@ -19,7 +19,7 @@
     "eslint-config-kitchensink": "1.0.6",
     "husky": "0.14.3",
     "lint-staged": "6.1.1",
-    "prettier": "1.12.0"
+    "prettier": "1.12.1"
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
