@@ -16,6 +16,7 @@
     "@commitlint/config-conventional": "^6.1.3",
     "eslint": "^6.5.1",
     "eslint-config-starstuff": "^1.0.0",
+    "eslint-plugin-jest": "^22.17.0",
     "husky": "^3.0.7",
     "jest": "^24.9.0",
     "jest-runner-eslint": "^0.7.4",
@@ -34,7 +35,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "eslint-config-starstuff"
+      "eslint-config-starstuff",
+      "plugin:jest/recommended"
     ],
     "parserOptions": {
       "ecmaVersion": 6
@@ -50,6 +52,9 @@
   },
   "jest": {
     "projects": [
+      {
+        "displayName": "test"
+      },
       {
         "displayName": "lint:prettier",
         "preset": "jest-runner-prettier"

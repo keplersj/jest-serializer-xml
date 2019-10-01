@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jest-serializer-xml serializes an XML document correctly 1`] = `
+<document>
+    test
+</document>
+`;
