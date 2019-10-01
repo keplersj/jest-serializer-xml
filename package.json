@@ -24,9 +24,7 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "test": "jest",
-    "precommit": "lint-staged"
+    "test": "jest"
   },
   "commitlint": {
     "extends": [
@@ -63,5 +61,11 @@
         ]
       }
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
   }
 }
