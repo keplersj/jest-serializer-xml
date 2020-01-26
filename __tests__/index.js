@@ -1,4 +1,4 @@
-const serializer = require("../");
+const serializer = require("..");
 
 describe("jest-serializer-xml", () => {
   it("serializes an XML document correctly", () => {
