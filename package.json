@@ -9,7 +9,7 @@
   "private": false,
   "dependencies": {
     "is-xml": "^0.1.0",
-    "xml-formatter": "^1.1.0"
+    "xml-formatter": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
