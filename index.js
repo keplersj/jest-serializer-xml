@@ -3,5 +3,5 @@ const formatXML = require("xml-formatter");
 
 module.exports = {
   test: isXML,
-  print: value => formatXML(value)
+  print: (value) => formatXML(value),
 };
